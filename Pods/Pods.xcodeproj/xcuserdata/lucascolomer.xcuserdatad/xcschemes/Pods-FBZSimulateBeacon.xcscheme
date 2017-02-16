@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53681AADAD82F9FE7FB8DB109679CBB5"
+               BlueprintIdentifier = "B1BB8BDA6A510420239B12DF40A2C1F5"
                BuildableName = "Pods_FBZSimulateBeacon.framework"
                BlueprintName = "Pods-FBZSimulateBeacon"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53681AADAD82F9FE7FB8DB109679CBB5"
+            BlueprintIdentifier = "B1BB8BDA6A510420239B12DF40A2C1F5"
             BuildableName = "Pods_FBZSimulateBeacon.framework"
             BlueprintName = "Pods-FBZSimulateBeacon"
             ReferencedContainer = "container:Pods.xcodeproj">

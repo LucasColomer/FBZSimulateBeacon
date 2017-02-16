@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>248705015326-pk0r8kgi3gdr3lr9u325i8d4e85mhnl7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248705015326-pk0r8kgi3gdr3lr9u325i8d4e85mhnl7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAhU0sjnM5jTZi8S5Tkauabst8qf4AVqms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248705015326</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.frianbiz</string>
+	<key>PROJECT_ID</key>
+	<string>simulatebeacon</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simulatebeacon.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248705015326:ios:70829ca00e18fa4a</string>
+	<key>DATABASE_URL</key>
+	<string>https://simulatebeacon.firebaseio.com</string>
+</dict>
+</plist>

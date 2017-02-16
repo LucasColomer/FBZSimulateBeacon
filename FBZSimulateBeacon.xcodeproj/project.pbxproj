@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		6819D73C1E55CF05002E25E6 /* FBZSimulateBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6819D73A1E55CF05002E25E6 /* FBZSimulateBeacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6840BA081E55CFDA006D30C7 /* FBZBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6840BA071E55CFDA006D30C7 /* FBZBeaconManager.swift */; };
-		6840BA0A1E55DB7A006D30C7 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6840BA091E55DB7A006D30C7 /* FirebaseCore.framework */; };
-		6840BA0C1E55DB7E006D30C7 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6840BA0B1E55DB7E006D30C7 /* FirebaseDatabase.framework */; };
-		6840BA0E1E55DB81006D30C7 /* Firebase.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 6840BA0D1E55DB81006D30C7 /* Firebase.h */; };
+		6840BA101E55DDE6006D30C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6840BA0F1E55DDE6006D30C7 /* GoogleService-Info.plist */; };
 		DFE4F2D4A82B2D7AAA4EF0FB /* Pods_FBZSimulateBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2B7D6EBBAD0DB14AE109F /* Pods_FBZSimulateBeacon.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +23,7 @@
 		6840BA091E55DB7A006D30C7 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Pods/FirebaseCore/Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		6840BA0B1E55DB7E006D30C7 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		6840BA0D1E55DB81006D30C7 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Pods/Firebase/Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		6840BA0F1E55DDE6006D30C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCD6A866F731CC145FEA7BD5 /* Pods-FBZSimulateBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBZSimulateBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBZSimulateBeacon/Pods-FBZSimulateBeacon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,10 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6840BA0C1E55DB7E006D30C7 /* FirebaseDatabase.framework in Frameworks */,
-				6840BA0E1E55DB81006D30C7 /* Firebase.h in Frameworks */,
 				DFE4F2D4A82B2D7AAA4EF0FB /* Pods_FBZSimulateBeacon.framework in Frameworks */,
-				6840BA0A1E55DB7A006D30C7 /* FirebaseCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +73,7 @@
 			children = (
 				6819D73A1E55CF05002E25E6 /* FBZSimulateBeacon.h */,
 				6840BA071E55CFDA006D30C7 /* FBZBeaconManager.swift */,
+				6840BA0F1E55DDE6006D30C7 /* GoogleService-Info.plist */,
 				6819D73B1E55CF05002E25E6 /* Info.plist */,
 			);
 			path = FBZSimulateBeacon;
@@ -163,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6840BA101E55DDE6006D30C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

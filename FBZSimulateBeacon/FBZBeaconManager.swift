@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreLocation
+import FirebaseDatabase
 import Firebase
 
 public class FBZBeaconManager {

@@ -4,10 +4,5 @@ use_frameworks!
 
 target 'FBZSimulateBeacon' do
   pod 'Firebase', '>= 2.5.1'
-  pod ‘Firebase/Auth’
-  pod ‘Google/SignIn’
-  pod ‘Firebase/Database’
-  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
 end
-
-
