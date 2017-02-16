@@ -8,8 +8,8 @@
 
 import Foundation
 import CoreLocation
-import FirebaseDatabase
 import Firebase
+import FirebaseDatabase
 
 public class FBZBeaconManager {
     var ref: FIRDatabaseReference!

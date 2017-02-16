@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'FBZSimulateBeacon' do
   pod ’Firebase', '~> 3.13.0'
+  pod 'Firebase/Database'
 end
