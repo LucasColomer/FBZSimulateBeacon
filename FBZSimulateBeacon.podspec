@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://frianbiz.com"
   s.author             = { "Lucas Colomer" => "lco@frianbiz.com" }
   s.framework = "Foundation", "CoreLocation"
-  s.source       = { :git => "https://github.com/LucasColomer/FBZSimulateBeacon.git"}
+  s.source       = { :git => "https://github.com/LucasColomer/FBZSimulateBeacon.git", :tag => "#{s.version}"}
   s.source_files = "FBZSimulateBeacon/**/*.{swift}"
   s.dependency "Firebase", "~> 3.13.0"
 end
