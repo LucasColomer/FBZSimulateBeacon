@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.name         = "FBZSimulateBeacon"
-  s.version      = "0.1.2"
+  s.version      = "0.1.4"
   s.summary      = "FBZSimulateBeacon Description"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.requires_arc = true
@@ -15,6 +15,6 @@ Long description for FBZSimulateBeacon
   s.source       = { :git => "https://github.com/LucasColomer/FBZSimulateBeacon.git", :tag => "#{s.version}"}
   s.source_files = "FBZSimulateBeacon/**/*.{swift}"
   s.dependency 'RxSwift', '~> 3.0.1'
-  s.dependency "Firebase", "~> 3.13.0"
-  s.dependency "Firebase/Database"
+  s.dependency 'Firebase", '~> 3.13.0'
+  s.dependency 'Firebase/Database'
 end
