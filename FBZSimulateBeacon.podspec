@@ -14,6 +14,7 @@ Long description for FBZSimulateBeacon
   s.framework = "Foundation", "CoreLocation"
   s.source       = { :git => "https://github.com/LucasColomer/FBZSimulateBeacon.git", :tag => "#{s.version}"}
   s.source_files = "FBZSimulateBeacon/**/*.{swift}"
+  s.dependency 'RxSwift', '~> 3.0.1'
   s.dependency "Firebase", "~> 3.13.0"
   s.dependency "Firebase/Database"
 end
