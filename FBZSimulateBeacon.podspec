@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.requires_arc = true
   s.description  = <<-DESC
+Long description for FBZSimulateBeacon
                    DESC
   s.homepage     = "http://frianbiz.com"
   s.author             = { "Lucas Colomer" => "lco@frianbiz.com" }
