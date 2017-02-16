@@ -10,21 +10,14 @@
 		6819D73C1E55CF05002E25E6 /* FBZSimulateBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6819D73A1E55CF05002E25E6 /* FBZSimulateBeacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6840BA081E55CFDA006D30C7 /* FBZBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6840BA071E55CFDA006D30C7 /* FBZBeaconManager.swift */; };
 		6840BA101E55DDE6006D30C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6840BA0F1E55DDE6006D30C7 /* GoogleService-Info.plist */; };
-		DFE4F2D4A82B2D7AAA4EF0FB /* Pods_FBZSimulateBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2B7D6EBBAD0DB14AE109F /* Pods_FBZSimulateBeacon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C370B7567D3451CAA9BE1AE /* Pods-FBZSimulateBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBZSimulateBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBZSimulateBeacon/Pods-FBZSimulateBeacon.debug.xcconfig"; sourceTree = "<group>"; };
-		63B2B7D6EBBAD0DB14AE109F /* Pods_FBZSimulateBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBZSimulateBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6819D7371E55CF05002E25E6 /* FBZSimulateBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBZSimulateBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6819D73A1E55CF05002E25E6 /* FBZSimulateBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBZSimulateBeacon.h; sourceTree = "<group>"; };
 		6819D73B1E55CF05002E25E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6840BA071E55CFDA006D30C7 /* FBZBeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBZBeaconManager.swift; sourceTree = "<group>"; };
-		6840BA091E55DB7A006D30C7 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Pods/FirebaseCore/Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		6840BA0B1E55DB7E006D30C7 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		6840BA0D1E55DB81006D30C7 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Pods/Firebase/Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		6840BA0F1E55DDE6006D30C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BCD6A866F731CC145FEA7BD5 /* Pods-FBZSimulateBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBZSimulateBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBZSimulateBeacon/Pods-FBZSimulateBeacon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +25,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE4F2D4A82B2D7AAA4EF0FB /* Pods_FBZSimulateBeacon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,10 +34,6 @@
 		5714A15BA3FDE274F69D31E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6840BA0D1E55DB81006D30C7 /* Firebase.h */,
-				6840BA0B1E55DB7E006D30C7 /* FirebaseDatabase.framework */,
-				6840BA091E55DB7A006D30C7 /* FirebaseCore.framework */,
-				63B2B7D6EBBAD0DB14AE109F /* Pods_FBZSimulateBeacon.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -55,7 +43,6 @@
 			children = (
 				6819D7391E55CF05002E25E6 /* FBZSimulateBeacon */,
 				6819D7381E55CF05002E25E6 /* Products */,
-				AAFE947C95A6217DE8A107D2 /* Pods */,
 				5714A15BA3FDE274F69D31E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -79,15 +66,6 @@
 			path = FBZSimulateBeacon;
 			sourceTree = "<group>";
 		};
-		AAFE947C95A6217DE8A107D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C370B7567D3451CAA9BE1AE /* Pods-FBZSimulateBeacon.debug.xcconfig */,
-				BCD6A866F731CC145FEA7BD5 /* Pods-FBZSimulateBeacon.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -106,12 +84,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6819D73F1E55CF05002E25E6 /* Build configuration list for PBXNativeTarget "FBZSimulateBeacon" */;
 			buildPhases = (
-				50F856739A8735006452482B /* [CP] Check Pods Manifest.lock */,
 				6819D7321E55CF05002E25E6 /* Sources */,
 				6819D7331E55CF05002E25E6 /* Frameworks */,
 				6819D7341E55CF05002E25E6 /* Headers */,
 				6819D7351E55CF05002E25E6 /* Resources */,
-				873EEDA33605F4555B35A0C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,39 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		50F856739A8735006452482B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		873EEDA33605F4555B35A0C6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBZSimulateBeacon/Pods-FBZSimulateBeacon-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6819D7321E55CF05002E25E6 /* Sources */ = {
@@ -312,7 +255,6 @@
 		};
 		6819D7401E55CF05002E25E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C370B7567D3451CAA9BE1AE /* Pods-FBZSimulateBeacon.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -338,7 +280,6 @@
 		};
 		6819D7411E55CF05002E25E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD6A866F731CC145FEA7BD5 /* Pods-FBZSimulateBeacon.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
