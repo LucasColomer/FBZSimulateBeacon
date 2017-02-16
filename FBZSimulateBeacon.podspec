@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.name         = "FBZSimulateBeacon"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "FBZSimulateBeacon Description"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.requires_arc = true
